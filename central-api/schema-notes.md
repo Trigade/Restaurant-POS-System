@@ -1,0 +1,5 @@
+products (id, name, category, price, stock_unit)
+orders (id, table_no, status, created_at, closed_at)
+order_items (id, order_id, product_id, quantity, unit_price)
+payments (id, order_id, method, amount, paid_at)
+stock (id, product_id, quantity, updated_at)

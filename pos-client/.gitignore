@@ -1,0 +1,6 @@
+build/bin/
+build/darwin/
+build/windows/*.exe
+node_modules/
+frontend/dist/
+*.db
